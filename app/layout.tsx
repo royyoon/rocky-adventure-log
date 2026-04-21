@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { Navigation } from "./components/Navigation";
+import Link from 'next/link';
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
@@ -22,8 +23,9 @@ export default function RootLayout({
         <main className="flex-1">
           {children}
         </main>
-        <footer className="py-8 text-center text-sm text-gray-500 border-t border-white/5 mt-auto">
+        <footer className="py-8 flex flex-col items-center justify-center text-sm text-gray-500 border-t border-white/5 mt-auto space-y-2">
           <p>© {new Date().getFullYear()} Rocky Plays. All missions classified.</p>
+          <Link href="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link>
         </footer>
       </body>
     </html>
