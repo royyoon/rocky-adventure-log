@@ -1,19 +1,20 @@
 @import "tailwindcss";
 
 @theme {
-  --color-neon-blue: #00f0ff;
-  --color-neon-purple: #b026ff;
-  --color-neon-green: #39ff14;
+  --color-fun-blue: #3b82f6;
+  --color-fun-orange: #f97316;
+  --color-fun-green: #22c55e;
+  --color-fun-yellow: #facc15;
   --font-sans: var(--font-inter);
 }
 
 :root {
-  --background: #0a0a0f;
-  --foreground: #ffffff;
-  --card-bg: #12121a;
-  --card-border: #2a2a35;
-  --neon-blue: #00f0ff;
-  --neon-glow: 0 0 10px rgba(0, 240, 255, 0.5), 0 0 20px rgba(0, 240, 255, 0.3);
+  --background: #f0fdf4; /* Light green/minty fun background */
+  --foreground: #1e293b; /* Dark slate for readability */
+  --card-bg: #ffffff;
+  --card-border: #e2e8f0;
+  --fun-accent: #f97316;
+  --fun-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
 }
 
 body {
@@ -25,7 +26,7 @@ body {
 
 /* Custom Scrollbar for a more premium look */
 ::-webkit-scrollbar {
-  width: 8px;
+  width: 12px;
 }
 
 ::-webkit-scrollbar-track {
@@ -33,17 +34,19 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--card-border);
-  border-radius: 4px;
+  background: #cbd5e1;
+  border-radius: 10px;
+  border: 3px solid var(--background);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--neon-blue);
+  background: var(--fun-accent);
 }
 
 .glass-panel {
-  background: rgba(18, 18, 26, 0.7);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 2px solid rgba(255, 255, 255, 1);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
 }
