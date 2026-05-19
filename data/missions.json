@@ -136,7 +136,7 @@
     "fullDescription": "We got amazing seats right by the field level to catch all the trick plays. The sun was shining over Petco Park—a perfect day for baseball.",
     "heroImage": "/images/media__1775844157601.jpg",
     "galleryImages": [],
-    "videoUrl": "https://www.youtube.com/embed/jNQXAC9IVRw",
+    "videoUrl": "https://www.youtube.com/embed/lE_BeM8LJos",
     "featured": false,
     "tags": ["Stadium", "Petco Park", "VIP"],
     "missionOutcome": "Secured the best seats in the house.",
@@ -158,5 +158,21 @@
     "missionOutcome": "Graduated junior firefighter training.",
     "favoriteMoment": "Seeing the massive hoses up close.",
     "date": "2025-11-20T10:00:00Z"
+  },
+  {
+    "id": 11,
+    "slug": "cabo-2025",
+    "title": "Rocky Goes to Cabo",
+    "category": "Travel",
+    "shortDescription": "Making a splash in Cabo San Lucas!",
+    "fullDescription": "A spectacular adventure in Cabo! From beautiful sunny beaches to making a splash in the pool, the fun never stopped on this trip.",
+    "heroImage": "/images/cabo_adventure.png",
+    "galleryImages": [],
+    "videoUrl": "https://www.youtube.com/embed/x43_N7PKfTk",
+    "featured": true,
+    "tags": ["Travel", "Cabo", "Vacation", "Beach"],
+    "missionOutcome": "Maximum relaxation and fun.",
+    "favoriteMoment": "Splashing in the pool all day.",
+    "date": "2026-05-18T10:00:00Z"
   }
 ]
