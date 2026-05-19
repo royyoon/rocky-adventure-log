@@ -80,22 +80,6 @@
     "date": "2025-07-21T10:00:00Z"
   },
   {
-    "id": 6,
-    "slug": "firetruck-cockpit",
-    "title": "Firetruck Cockpit Check",
-    "category": "Heroes",
-    "shortDescription": "Sitting inside the massive cab of a real firetruck.",
-    "fullDescription": "We were granted classified access to sit right where the driver steers! Checking out all the headsets, radios, and buttons inside the truck cab.",
-    "heroImage": "/images/media__1775844157475.jpg",
-    "galleryImages": [],
-    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    "featured": true,
-    "tags": ["Fire Station", "Trucks", "Behind the Scenes"],
-    "missionOutcome": "Learned what all the buttons do.",
-    "favoriteMoment": "Wearing the huge headsets.",
-    "date": "2025-08-05T15:30:00Z"
-  },
-  {
     "id": 7,
     "slug": "poster-drawing-duty",
     "title": "Poster Drawing Duty",
